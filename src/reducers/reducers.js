@@ -9,6 +9,10 @@ function todo(state, action) {
                 text: action.text
             }
         }
+            
+        default: {
+            return state;
+        }
     }
 }
 
